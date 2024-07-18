@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-data = pd.read_csv('stock_price_data_of _last_5_year.csv')#csv file loacation 
+data = pd.read_csv('stock_price_data_of _last_5_year.csv')#csv file loacation
 print(data.shape)
 print(data.sample(7))
 
